@@ -38,11 +38,11 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
              KC_ENTER, KC_DEL,
              KC_PGDN, KC_PGUP
     ),
-// todo update gaming
+
     [_GAMING] = LAYOUT_5x7(
         // left hand
         // Columns  "~"
-        KC_ESC,        _______,       KC_GRAVE,     KC_1,    KC_2,   KC_3,   KC_4,
+        _______,        _______,       _______,     _______,    _______,   _______,   _______,
         _______,   KC_T,       KC_TAB,       KC_Q,    KC_W,   KC_E,   KC_R,
         _______,       KC_G,    KC_LSFT,      KC_A,    KC_S,   KC_D,   KC_F,
         _______,   KC_B,    KC_LEFT_CTRL,      KC_Z,    KC_X,   KC_C,   KC_V,
